@@ -1,0 +1,11 @@
+step-1:npm init -y
+step-2:npm install -D tailwindcss vite
+step-3:npx tailwindcss init -p
+step-4:Declare specific path in tailwind.config.js file(use ['*'] to add tailwindcss from anywhere)
+step-5:Create a folder name CSS or any and then create a file name 
+main.css under the folder .In main.css file add those three line that i write below:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+step-6:add script ("start": "vite") under package.json file
+step-7:create html boiler plate and link main.css with it 
